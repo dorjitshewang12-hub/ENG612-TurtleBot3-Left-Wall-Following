@@ -33,6 +33,7 @@ setup(
             'scan_monitor = eng612_wall_following.scan_monitor:main',
             'left_wall_follow = eng612_wall_following.left_wall_follow:main',
             'dual_wall_follow = eng612_wall_following.dual_wall_follow:main',
+            'pid_speed_optimizer = eng612_wall_following.pid_speed_optimizer:main',
         ],
     },
 )
