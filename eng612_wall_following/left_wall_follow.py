@@ -8,6 +8,7 @@ from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
 from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
+from rclpy.signals import SignalHandlerOptions
 from sensor_msgs.msg import LaserScan
 
 
@@ -282,7 +283,8 @@ class LeftWallFollower(Node):
 
 
 def main(args=None):
-    rclpy.init(args=args)
+    # Disable rclpy's SIGINT handler so the context stays valid for the stop command.
+    rclpy.init(args=args, signal_handler_options=SignalHandlerOptions.NO)
     node = LeftWallFollower()
     try:
         rclpy.spin(node)
@@ -291,9 +293,9 @@ def main(args=None):
     finally:
         node.shutdown_stop()
         node.destroy_node()
-        rclpy.shutdown()
+        if rclpy.ok():
+            rclpy.shutdown()
 
 
 if __name__ == '__main__':
     main()
-
