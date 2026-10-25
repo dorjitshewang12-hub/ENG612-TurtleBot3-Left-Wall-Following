@@ -10,6 +10,7 @@ from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
 from rclpy.signals import SignalHandlerOptions
 from sensor_msgs.msg import LaserScan
+from std_msgs.msg import Float32
 
 
 def clamp(x, lower, upper):
@@ -65,6 +66,8 @@ class LeftWallFollower(Node):
         self.last_reason = ''
 
         self.pub = self.create_publisher(Twist, '/cmd_vel', 10)
+        # Distance error (target - measured) for plotting with rqt_plot / ros2 bag.
+        self.err_pub = self.create_publisher(Float32, '/wall_error', 10)
         self.scan_sub = self.create_subscription(
             LaserScan, '/scan', self.scan_callback, qos_profile_sensor_data)
         self.odom_sub = self.create_subscription(
@@ -172,8 +175,9 @@ class LeftWallFollower(Node):
         self.last_log_time = now
         def fmt(x):
             return 'UNKNOWN' if x is None else ('OPEN' if math.isinf(x) else f'{x:.3f}')
+        err = 'N/A' if left is None or math.isinf(left) else f'{self.target - left:+.3f}'
         self.get_logger().info(
-            f'{self.state} | left={fmt(left)} m | front={fmt(front)} m | '
+            f'{self.state} | left={fmt(left)} m | error={err} m | front={fmt(front)} m | '
             f'front_left={fmt(front_left)} m | cmd_v={linear:.3f} | '
             f'cmd_w={angular:+.3f} | motion={self.enable_motion}')
 
@@ -269,6 +273,7 @@ class LeftWallFollower(Node):
             return
 
         error = self.target - left
+        self.err_pub.publish(Float32(data=float(error)))
         angular = self.pid(error, now)
         # Slow down for a remaining obstacle/large heading correction.
         v = self.linear_speed

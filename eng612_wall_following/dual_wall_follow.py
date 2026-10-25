@@ -17,6 +17,7 @@ from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
 from rclpy.signals import SignalHandlerOptions
 from sensor_msgs.msg import LaserScan
+from std_msgs.msg import Float32
 
 
 def clamp(value, low, high):
@@ -91,6 +92,8 @@ class DualPidWallFollower(Node):
         self.last_log_time = 0.0
 
         self.pub = self.create_publisher(Twist, '/cmd_vel', 10)
+        # Distance error (target - measured) for plotting with rqt_plot / ros2 bag.
+        self.err_pub = self.create_publisher(Float32, '/wall_error', 10)
         self.create_subscription(LaserScan, '/scan', self.scan_callback, qos_profile_sensor_data)
         self.create_subscription(Odometry, '/odom', self.odom_callback, qos_profile_sensor_data)
         self.create_timer(0.1, self.watchdog)
@@ -219,8 +222,9 @@ class DualPidWallFollower(Node):
 
         def fmt(x):
             return 'UNKNOWN' if x is None else ('OPEN' if math.isinf(x) else f'{x:.3f}')
+        err = 'N/A' if left is None or math.isinf(left) else f'{self.target - left:+.3f}'
         self.get_logger().info(
-            f'{self.state} | left={fmt(left)} m | front={fmt(front)} m | '
+            f'{self.state} | left={fmt(left)} m | error={err} m | front={fmt(front)} m | '
             f'cmd_v={speed:.3f} | cmd_w={angular:+.3f} | motion={self.enable_motion}')
 
     def scan_callback(self, scan):
@@ -327,6 +331,7 @@ class DualPidWallFollower(Node):
         else:
             self.left_filtered = 0.6*dist + 0.4*self.left_filtered
         error = self.target - self.left_filtered
+        self.err_pub.publish(Float32(data=float(error)))
 
         angular = self.follow_pid(error, now)   # PID 1: steering
         speed = self.speed_pid(front, now)      # PID 2: speed from front clearance
