@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+  ENG612 Project 2 - lab arena world.
+
+  The walls are the model "lab_arena_walls", drawn in the Gazebo Building
+  Editor (models/lab_arena_walls). Building Editor default walls:
+  2.0 m long (outside), 0.15 m thick, 2.5 m high.
+
+  Coordinate frame (mark the same frame on the lab floor):
+    origin (0, 0) = centre of the arena
+    +x            = along the north wall, towards the east wall
+    +y            = towards the north wall
+  Wall centrelines at +/-0.925 m, inside wall faces at +/-0.85 m
+  (inside 1.70 m x 1.70 m).
+-->
+<sdf version="1.6">
+  <world name="lab_arena">
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+
+    <include>
+      <uri>model://lab_arena_walls</uri>
+      <name>lab_arena_walls</name>
+      <pose>-0.076 0 0 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>
