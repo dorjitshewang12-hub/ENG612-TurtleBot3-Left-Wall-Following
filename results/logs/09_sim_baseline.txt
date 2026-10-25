@@ -1,111 +1,101 @@
-[INFO] [1792909986.138188541] [left_wall_follower]: LEFT WALL FOLLOWER | target=0.30 m | enable_motion=True
-[INFO] [1792909986.276375049] [left_wall_follower]: FOLLOW | left=0.296 m | error=+0.004 m | front=1.442 m | front_left=0.366 m | cmd_v=0.080 | cmd_w=-0.004 | motion=True
-[INFO] [1792909987.279388763] [left_wall_follower]: FOLLOW | left=0.301 m | error=-0.001 m | front=1.360 m | front_left=0.371 m | cmd_v=0.080 | cmd_w=+0.002 | motion=True
-[INFO] [1792909988.279232340] [left_wall_follower]: FOLLOW | left=0.298 m | error=+0.002 m | front=1.279 m | front_left=0.363 m | cmd_v=0.080 | cmd_w=-0.005 | motion=True
-[INFO] [1792909989.281751688] [left_wall_follower]: FOLLOW | left=0.307 m | error=-0.007 m | front=1.186 m | front_left=0.358 m | cmd_v=0.080 | cmd_w=+0.008 | motion=True
-[INFO] [1792909990.285825054] [left_wall_follower]: FOLLOW | left=0.304 m | error=-0.004 m | front=1.118 m | front_left=0.355 m | cmd_v=0.080 | cmd_w=+0.005 | motion=True
-[INFO] [1792909991.286539101] [left_wall_follower]: FOLLOW | left=0.302 m | error=-0.002 m | front=1.036 m | front_left=0.370 m | cmd_v=0.080 | cmd_w=+0.002 | motion=True
-[INFO] [1792909992.292749484] [left_wall_follower]: FOLLOW | left=0.304 m | error=-0.004 m | front=0.953 m | front_left=0.367 m | cmd_v=0.080 | cmd_w=+0.006 | motion=True
-[INFO] [1792909993.490365086] [left_wall_follower]: FOLLOW | left=0.300 m | error=+0.000 m | front=0.852 m | front_left=0.363 m | cmd_v=0.080 | cmd_w=+0.001 | motion=True
-[INFO] [1792909994.497045159] [left_wall_follower]: FOLLOW | left=0.299 m | error=+0.001 m | front=0.779 m | front_left=0.359 m | cmd_v=0.080 | cmd_w=-0.001 | motion=True
-[INFO] [1792909995.692797372] [left_wall_follower]: FOLLOW | left=0.298 m | error=+0.002 m | front=0.679 m | front_left=0.362 m | cmd_v=0.080 | cmd_w=-0.003 | motion=True
-[INFO] [1792909996.696213915] [left_wall_follower]: FOLLOW | left=0.299 m | error=+0.001 m | front=0.590 m | front_left=0.355 m | cmd_v=0.080 | cmd_w=-0.001 | motion=True
-[INFO] [1792909997.700039584] [left_wall_follower]: FOLLOW | left=0.299 m | error=+0.001 m | front=0.518 m | front_left=0.357 m | cmd_v=0.080 | cmd_w=-0.000 | motion=True
-[INFO] [1792909998.705663926] [left_wall_follower]: FOLLOW | left=0.299 m | error=+0.001 m | front=0.463 m | front_left=0.366 m | cmd_v=0.040 | cmd_w=-0.001 | motion=True
-[INFO] [1792909999.707979802] [left_wall_follower]: FOLLOW | left=0.303 m | error=-0.003 m | front=0.422 m | front_left=0.375 m | cmd_v=0.040 | cmd_w=+0.006 | motion=True
-[INFO] [1792910000.902054634] [left_wall_follower]: FOLLOW | left=0.307 m | error=-0.007 m | front=0.362 m | front_left=0.361 m | cmd_v=0.040 | cmd_w=+0.010 | motion=True
-[INFO] [1792910001.305193570] [left_wall_follower]: STATE -> TURN_RIGHT: front or front-left obstacle
-[INFO] [1792910001.904774902] [left_wall_follower]: TURN_RIGHT | left=0.301 m | error=-0.001 m | front=0.344 m | front_left=0.401 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910002.910735353] [left_wall_follower]: TURN_RIGHT | left=0.335 m | error=-0.035 m | front=0.382 m | front_left=0.351 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910003.914004399] [left_wall_follower]: TURN_RIGHT | left=0.432 m | error=-0.132 m | front=0.489 m | front_left=0.338 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910004.917367492] [left_wall_follower]: TURN_RIGHT | left=0.353 m | error=-0.053 m | front=0.842 m | front_left=0.367 m | cmd_v=0.000 | cmd_w=-0.340 | motion=True
-[INFO] [1792910005.718186556] [left_wall_follower]: STATE -> FOLLOW: right turn completed
-[INFO] [1792910005.923423906] [left_wall_follower]: FOLLOW | left=0.336 m | error=-0.036 m | front=1.450 m | front_left=0.394 m | cmd_v=0.080 | cmd_w=+0.036 | motion=True
-[INFO] [1792910007.121671133] [left_wall_follower]: FOLLOW | left=0.332 m | error=-0.032 m | front=1.368 m | front_left=0.395 m | cmd_v=0.080 | cmd_w=+0.031 | motion=True
-[INFO] [1792910008.129274543] [left_wall_follower]: FOLLOW | left=0.336 m | error=-0.036 m | front=1.209 m | front_left=0.373 m | cmd_v=0.080 | cmd_w=+0.039 | motion=True
-[INFO] [1792910009.327648480] [left_wall_follower]: FOLLOW | left=0.322 m | error=-0.022 m | front=1.046 m | front_left=0.364 m | cmd_v=0.080 | cmd_w=+0.022 | motion=True
-[INFO] [1792910010.329374164] [left_wall_follower]: FOLLOW | left=0.313 m | error=-0.013 m | front=0.958 m | front_left=0.342 m | cmd_v=0.080 | cmd_w=+0.011 | motion=True
-[INFO] [1792910011.335673008] [left_wall_follower]: FOLLOW | left=0.308 m | error=-0.008 m | front=0.881 m | front_left=0.336 m | cmd_v=0.080 | cmd_w=+0.009 | motion=True
-[INFO] [1792910012.534287704] [left_wall_follower]: FOLLOW | left=0.284 m | error=+0.016 m | front=0.856 m | front_left=0.318 m | cmd_v=0.080 | cmd_w=-0.018 | motion=True
-[INFO] [1792910013.542281908] [left_wall_follower]: FOLLOW | left=0.278 m | error=+0.022 m | front=0.872 m | front_left=0.304 m | cmd_v=0.080 | cmd_w=-0.021 | motion=True
-[INFO] [1792910014.544014676] [left_wall_follower]: FOLLOW | left=0.262 m | error=+0.038 m | front=0.870 m | front_left=0.310 m | cmd_v=0.080 | cmd_w=-0.041 | motion=True
-[INFO] [1792910015.545331596] [left_wall_follower]: FOLLOW | left=0.258 m | error=+0.042 m | front=0.786 m | front_left=0.290 m | cmd_v=0.080 | cmd_w=-0.043 | motion=True
-[INFO] [1792910016.556040030] [left_wall_follower]: FOLLOW | left=0.255 m | error=+0.045 m | front=0.713 m | front_left=0.295 m | cmd_v=0.080 | cmd_w=-0.044 | motion=True
-[INFO] [1792910016.954797843] [left_wall_follower]: STATE -> AVOID_LEFT: too close to left wall
-[INFO] [1792910017.152875538] [left_wall_follower]: STATE -> FOLLOW: left clearance restored
-[INFO] [1792910017.752849969] [left_wall_follower]: FOLLOW | left=0.257 m | error=+0.043 m | front=0.624 m | front_left=0.291 m | cmd_v=0.080 | cmd_w=-0.041 | motion=True
-[INFO] [1792910017.959705293] [left_wall_follower]: STATE -> AVOID_LEFT: too close to left wall
-[INFO] [1792910018.353759304] [left_wall_follower]: STATE -> FOLLOW: left clearance restored
-[INFO] [1792910018.556057297] [left_wall_follower]: STATE -> AVOID_LEFT: too close to left wall
-[INFO] [1792910018.757969422] [left_wall_follower]: STATE -> FOLLOW: left clearance restored
-[INFO] [1792910018.758435455] [left_wall_follower]: FOLLOW | left=0.256 m | error=+0.044 m | front=0.575 m | front_left=0.335 m | cmd_v=0.080 | cmd_w=-0.044 | motion=True
-[INFO] [1792910019.768655760] [left_wall_follower]: FOLLOW | left=0.262 m | error=+0.038 m | front=0.508 m | front_left=0.374 m | cmd_v=0.080 | cmd_w=-0.037 | motion=True
-[INFO] [1792910020.967892531] [left_wall_follower]: FOLLOW | left=0.276 m | error=+0.024 m | front=0.453 m | front_left=0.401 m | cmd_v=0.040 | cmd_w=-0.023 | motion=True
-[INFO] [1792910022.172851148] [left_wall_follower]: FOLLOW | left=0.291 m | error=+0.009 m | front=0.398 m | front_left=0.421 m | cmd_v=0.040 | cmd_w=-0.005 | motion=True
-[INFO] [1792910023.369606316] [left_wall_follower]: FOLLOW | left=0.298 m | error=+0.002 m | front=0.350 m | front_left=0.382 m | cmd_v=0.040 | cmd_w=-0.001 | motion=True
-[INFO] [1792910023.573377831] [left_wall_follower]: STATE -> TURN_RIGHT: front or front-left obstacle
-[INFO] [1792910024.373141805] [left_wall_follower]: TURN_RIGHT | left=0.310 m | error=-0.010 m | front=0.357 m | front_left=0.357 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910025.379154262] [left_wall_follower]: TURN_RIGHT | left=0.412 m | error=-0.112 m | front=0.430 m | front_left=0.318 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910026.581325054] [left_wall_follower]: TURN_RIGHT | left=0.339 m | error=-0.039 m | front=0.773 m | front_left=0.350 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910027.582218107] [left_wall_follower]: TURN_RIGHT | left=0.322 m | error=-0.022 m | front=1.540 m | front_left=0.424 m | cmd_v=0.000 | cmd_w=-0.167 | motion=True
-[INFO] [1792910027.982738293] [left_wall_follower]: STATE -> FOLLOW: right turn completed
-[INFO] [1792910028.586265340] [left_wall_follower]: FOLLOW | left=0.334 m | error=-0.034 m | front=1.513 m | front_left=0.476 m | cmd_v=0.080 | cmd_w=+0.039 | motion=True
-[INFO] [1792910029.587057064] [left_wall_follower]: FOLLOW | left=0.341 m | error=-0.041 m | front=1.435 m | front_left=0.478 m | cmd_v=0.080 | cmd_w=+0.043 | motion=True
-[INFO] [1792910030.588183846] [left_wall_follower]: FOLLOW | left=0.353 m | error=-0.053 m | front=1.358 m | front_left=0.471 m | cmd_v=0.080 | cmd_w=+0.055 | motion=True
-[INFO] [1792910031.588845821] [left_wall_follower]: FOLLOW | left=0.359 m | error=-0.059 m | front=1.289 m | front_left=0.457 m | cmd_v=0.080 | cmd_w=+0.060 | motion=True
-[INFO] [1792910032.791629156] [left_wall_follower]: FOLLOW | left=0.365 m | error=-0.065 m | front=1.189 m | front_left=0.436 m | cmd_v=0.080 | cmd_w=+0.068 | motion=True
-[INFO] [1792910033.802795688] [left_wall_follower]: FOLLOW | left=0.360 m | error=-0.060 m | front=1.104 m | front_left=0.403 m | cmd_v=0.080 | cmd_w=+0.061 | motion=True
-[INFO] [1792910034.812477133] [left_wall_follower]: FOLLOW | left=0.355 m | error=-0.055 m | front=1.016 m | front_left=0.380 m | cmd_v=0.080 | cmd_w=+0.058 | motion=True
-[INFO] [1792910035.816489270] [left_wall_follower]: FOLLOW | left=0.346 m | error=-0.046 m | front=0.867 m | front_left=0.367 m | cmd_v=0.080 | cmd_w=+0.047 | motion=True
-[INFO] [1792910036.817906596] [left_wall_follower]: FOLLOW | left=0.333 m | error=-0.033 m | front=0.756 m | front_left=0.334 m | cmd_v=0.080 | cmd_w=+0.035 | motion=True
-[INFO] [1792910037.818102006] [left_wall_follower]: FOLLOW | left=0.318 m | error=-0.018 m | front=0.685 m | front_left=0.306 m | cmd_v=0.080 | cmd_w=+0.020 | motion=True
-[INFO] [1792910038.826180566] [left_wall_follower]: FOLLOW | left=0.293 m | error=+0.007 m | front=0.639 m | front_left=0.288 m | cmd_v=0.080 | cmd_w=-0.006 | motion=True
-[INFO] [1792910040.024969578] [left_wall_follower]: FOLLOW | left=0.264 m | error=+0.036 m | front=0.597 m | front_left=0.254 m | cmd_v=0.080 | cmd_w=-0.037 | motion=True
-[INFO] [1792910040.422426984] [left_wall_follower]: STATE -> AVOID_LEFT: too close to left wall
-[INFO] [1792910041.030765386] [left_wall_follower]: AVOID_LEFT | left=0.241 m | error=+0.059 m | front=0.578 m | front_left=0.271 m | cmd_v=0.030 | cmd_w=-0.250 | motion=True
-[INFO] [1792910042.033502333] [left_wall_follower]: AVOID_LEFT | left=0.236 m | error=+0.064 m | front=0.554 m | front_left=0.302 m | cmd_v=0.030 | cmd_w=-0.250 | motion=True
-[INFO] [1792910043.033417126] [left_wall_follower]: AVOID_LEFT | left=0.244 m | error=+0.056 m | front=0.529 m | front_left=0.415 m | cmd_v=0.030 | cmd_w=-0.250 | motion=True
-[INFO] [1792910043.232529600] [left_wall_follower]: STATE -> FOLLOW: left clearance restored
-[INFO] [1792910044.033658337] [left_wall_follower]: FOLLOW | left=0.284 m | error=+0.016 m | front=0.456 m | front_left=0.447 m | cmd_v=0.040 | cmd_w=-0.010 | motion=True
-[INFO] [1792910045.034186747] [left_wall_follower]: FOLLOW | left=0.300 m | error=-0.000 m | front=0.423 m | front_left=0.421 m | cmd_v=0.040 | cmd_w=+0.003 | motion=True
-[INFO] [1792910046.035479527] [left_wall_follower]: FOLLOW | left=0.319 m | error=-0.019 m | front=0.394 m | front_left=0.389 m | cmd_v=0.040 | cmd_w=+0.022 | motion=True
-[INFO] [1792910047.036573196] [left_wall_follower]: FOLLOW | left=0.335 m | error=-0.035 m | front=0.354 m | front_left=0.358 m | cmd_v=0.040 | cmd_w=+0.037 | motion=True
-[INFO] [1792910047.237088078] [left_wall_follower]: STATE -> TURN_RIGHT: front or front-left obstacle
-[INFO] [1792910048.043742748] [left_wall_follower]: TURN_RIGHT | left=0.376 m | error=-0.076 m | front=0.364 m | front_left=0.337 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910049.047677408] [left_wall_follower]: TURN_RIGHT | left=0.395 m | error=-0.095 m | front=0.500 m | front_left=0.328 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910050.051004078] [left_wall_follower]: TURN_RIGHT | left=0.330 m | error=-0.030 m | front=0.985 m | front_left=0.350 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910051.058188367] [left_wall_follower]: TURN_RIGHT | left=0.323 m | error=-0.023 m | front=1.531 m | front_left=0.475 m | cmd_v=0.000 | cmd_w=-0.234 | motion=True
-[INFO] [1792910051.656566170] [left_wall_follower]: STATE -> FOLLOW: right turn completed
-[INFO] [1792910052.259112378] [left_wall_follower]: FOLLOW | left=0.346 m | error=-0.046 m | front=1.536 m | front_left=0.606 m | cmd_v=0.080 | cmd_w=+0.052 | motion=True
-[INFO] [1792910053.259882292] [left_wall_follower]: FOLLOW | left=0.365 m | error=-0.065 m | front=1.433 m | front_left=0.583 m | cmd_v=0.080 | cmd_w=+0.070 | motion=True
-[INFO] [1792910054.266974198] [left_wall_follower]: FOLLOW | left=0.382 m | error=-0.082 m | front=1.346 m | front_left=0.574 m | cmd_v=0.080 | cmd_w=+0.085 | motion=True
-[INFO] [1792910055.269422417] [left_wall_follower]: FOLLOW | left=0.390 m | error=-0.090 m | front=1.270 m | front_left=0.536 m | cmd_v=0.080 | cmd_w=+0.092 | motion=True
-[INFO] [1792910056.270178218] [left_wall_follower]: FOLLOW | left=0.398 m | error=-0.098 m | front=1.177 m | front_left=0.503 m | cmd_v=0.080 | cmd_w=+0.101 | motion=True
-[INFO] [1792910057.471904898] [left_wall_follower]: FOLLOW | left=0.408 m | error=-0.108 m | front=1.088 m | front_left=0.458 m | cmd_v=0.080 | cmd_w=+0.113 | motion=True
-[INFO] [1792910058.671135070] [left_wall_follower]: FOLLOW | left=0.402 m | error=-0.102 m | front=0.975 m | front_left=0.419 m | cmd_v=0.080 | cmd_w=+0.105 | motion=True
-[INFO] [1792910059.678077301] [left_wall_follower]: FOLLOW | left=0.394 m | error=-0.094 m | front=0.771 m | front_left=0.387 m | cmd_v=0.080 | cmd_w=+0.096 | motion=True
-[INFO] [1792910060.878207904] [left_wall_follower]: FOLLOW | left=0.375 m | error=-0.075 m | front=0.598 m | front_left=0.328 m | cmd_v=0.080 | cmd_w=+0.076 | motion=True
-[INFO] [1792910061.879614227] [left_wall_follower]: FOLLOW | left=0.348 m | error=-0.048 m | front=0.474 m | front_left=0.299 m | cmd_v=0.040 | cmd_w=+0.045 | motion=True
-[INFO] [1792910062.883731428] [left_wall_follower]: FOLLOW | left=0.325 m | error=-0.025 m | front=0.429 m | front_left=0.286 m | cmd_v=0.040 | cmd_w=+0.022 | motion=True
-[INFO] [1792910064.085016474] [left_wall_follower]: FOLLOW | left=0.305 m | error=-0.005 m | front=0.376 m | front_left=0.250 m | cmd_v=0.040 | cmd_w=+0.003 | motion=True
-[INFO] [1792910065.084286886] [left_wall_follower]: STATE -> TURN_RIGHT: front or front-left obstacle
-[INFO] [1792910065.288803213] [left_wall_follower]: TURN_RIGHT | left=0.279 m | error=+0.021 m | front=0.353 m | front_left=0.224 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910066.291545537] [left_wall_follower]: TURN_RIGHT | left=0.228 m | error=+0.072 m | front=0.636 m | front_left=0.252 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910067.487637424] [left_wall_follower]: TURN_RIGHT | left=0.228 m | error=+0.072 m | front=0.639 m | front_left=0.339 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910068.490146114] [left_wall_follower]: TURN_RIGHT | left=0.272 m | error=+0.028 m | front=0.742 m | front_left=0.627 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
-[INFO] [1792910069.492572558] [left_wall_follower]: STATE -> FOLLOW: right turn completed
-[INFO] [1792910069.697329632] [left_wall_follower]: FOLLOW | left=0.365 m | error=-0.065 m | front=0.900 m | front_left=0.639 m | cmd_v=0.080 | cmd_w=+0.065 | motion=True
-[INFO] [1792910070.898936843] [left_wall_follower]: FOLLOW | left=0.430 m | error=-0.130 m | front=0.753 m | front_left=0.567 m | cmd_v=0.080 | cmd_w=+0.136 | motion=True
-[INFO] [1792910071.501781660] [left_wall_follower]: STATE -> RECOVER_LEFT: left wall out of range
-[INFO] [1792910071.698851762] [left_wall_follower]: STATE -> FOLLOW: left wall reacquired
-[INFO] [1792910071.899923680] [left_wall_follower]: STATE -> RECOVER_LEFT: left wall out of range
-[INFO] [1792910072.102098830] [left_wall_follower]: STATE -> FOLLOW: left wall reacquired
-[INFO] [1792910072.102440921] [left_wall_follower]: FOLLOW | left=0.448 m | error=-0.148 m | front=0.630 m | front_left=0.525 m | cmd_v=0.080 | cmd_w=+0.148 | motion=True
-[INFO] [1792910072.301984088] [left_wall_follower]: STATE -> RECOVER_LEFT: left wall out of range
-[INFO] [1792910072.701885080] [left_wall_follower]: STATE -> FOLLOW: left wall reacquired
-[INFO] [1792910073.105233357] [left_wall_follower]: FOLLOW | left=0.449 m | error=-0.149 m | front=0.547 m | front_left=0.493 m | cmd_v=0.080 | cmd_w=+0.152 | motion=True
-[INFO] [1792910073.305451066] [left_wall_follower]: STATE -> RECOVER_LEFT: left wall out of range
-[INFO] [1792910073.508265458] [left_wall_follower]: STATE -> FOLLOW: left wall reacquired
-[INFO] [1792910073.908561081] [left_wall_follower]: STATE -> RECOVER_LEFT: left wall out of range
-[INFO] [1792910074.105114755] [left_wall_follower]: STATE -> FOLLOW: left wall reacquired
-[INFO] [1792910074.310061361] [left_wall_follower]: STATE -> RECOVER_LEFT: left wall out of range
+[INFO] [1792911429.535482436] [left_wall_follower]: LEFT WALL FOLLOWER | target=0.30 m | enable_motion=True
+[INFO] [1792911429.604049504] [left_wall_follower]: FOLLOW | left=0.297 m | error=+0.003 m | front=1.425 m | front_left=0.365 m | cmd_v=0.080 | cmd_w=-0.003 | motion=True
+[INFO] [1792911430.802735646] [left_wall_follower]: FOLLOW | left=0.304 m | error=-0.004 m | front=1.339 m | front_left=0.376 m | cmd_v=0.080 | cmd_w=+0.005 | motion=True
+[INFO] [1792911431.808754698] [left_wall_follower]: FOLLOW | left=0.301 m | error=-0.001 m | front=1.255 m | front_left=0.362 m | cmd_v=0.080 | cmd_w=+0.002 | motion=True
+[INFO] [1792911432.813354649] [left_wall_follower]: FOLLOW | left=0.301 m | error=-0.001 m | front=1.177 m | front_left=0.358 m | cmd_v=0.080 | cmd_w=+0.002 | motion=True
+[INFO] [1792911434.013140871] [left_wall_follower]: FOLLOW | left=0.297 m | error=+0.003 m | front=1.074 m | front_left=0.362 m | cmd_v=0.080 | cmd_w=-0.005 | motion=True
+[INFO] [1792911435.015944404] [left_wall_follower]: FOLLOW | left=0.301 m | error=-0.001 m | front=1.005 m | front_left=0.369 m | cmd_v=0.080 | cmd_w=+0.001 | motion=True
+[INFO] [1792911436.215904316] [left_wall_follower]: FOLLOW | left=0.304 m | error=-0.004 m | front=0.912 m | front_left=0.363 m | cmd_v=0.080 | cmd_w=+0.004 | motion=True
+[INFO] [1792911437.220743057] [left_wall_follower]: FOLLOW | left=0.302 m | error=-0.002 m | front=0.828 m | front_left=0.372 m | cmd_v=0.080 | cmd_w=+0.003 | motion=True
+[INFO] [1792911438.423752518] [left_wall_follower]: FOLLOW | left=0.300 m | error=-0.000 m | front=0.737 m | front_left=0.372 m | cmd_v=0.080 | cmd_w=+0.000 | motion=True
+[INFO] [1792911439.424685659] [left_wall_follower]: FOLLOW | left=0.295 m | error=+0.005 m | front=0.658 m | front_left=0.368 m | cmd_v=0.080 | cmd_w=-0.008 | motion=True
+[INFO] [1792911440.626821226] [left_wall_follower]: FOLLOW | left=0.296 m | error=+0.004 m | front=0.552 m | front_left=0.374 m | cmd_v=0.080 | cmd_w=-0.007 | motion=True
+[INFO] [1792911441.627972225] [left_wall_follower]: FOLLOW | left=0.298 m | error=+0.002 m | front=0.479 m | front_left=0.367 m | cmd_v=0.040 | cmd_w=-0.002 | motion=True
+[INFO] [1792911442.829033338] [left_wall_follower]: FOLLOW | left=0.299 m | error=+0.001 m | front=0.436 m | front_left=0.369 m | cmd_v=0.040 | cmd_w=-0.001 | motion=True
+[INFO] [1792911443.829319011] [left_wall_follower]: FOLLOW | left=0.302 m | error=-0.002 m | front=0.388 m | front_left=0.360 m | cmd_v=0.040 | cmd_w=+0.003 | motion=True
+[INFO] [1792911444.832290782] [left_wall_follower]: FOLLOW | left=0.297 m | error=+0.003 m | front=0.351 m | front_left=0.370 m | cmd_v=0.040 | cmd_w=-0.003 | motion=True
+[INFO] [1792911445.030718042] [left_wall_follower]: STATE -> TURN_RIGHT: front or front-left obstacle
+[INFO] [1792911445.832480243] [left_wall_follower]: TURN_RIGHT | left=0.304 m | error=-0.004 m | front=0.344 m | front_left=0.383 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911446.835345985] [left_wall_follower]: TURN_RIGHT | left=0.350 m | error=-0.050 m | front=0.379 m | front_left=0.342 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911447.841268585] [left_wall_follower]: TURN_RIGHT | left=0.404 m | error=-0.104 m | front=0.521 m | front_left=0.342 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911448.841974843] [left_wall_follower]: TURN_RIGHT | left=0.337 m | error=-0.037 m | front=0.970 m | front_left=0.375 m | cmd_v=0.000 | cmd_w=-0.251 | motion=True
+[INFO] [1792911449.443357048] [left_wall_follower]: STATE -> FOLLOW: right turn completed
+[INFO] [1792911450.044061668] [left_wall_follower]: FOLLOW | left=0.327 m | error=-0.027 m | front=1.519 m | front_left=0.391 m | cmd_v=0.080 | cmd_w=+0.026 | motion=True
+[INFO] [1792911451.047141072] [left_wall_follower]: FOLLOW | left=0.320 m | error=-0.020 m | front=1.319 m | front_left=0.387 m | cmd_v=0.080 | cmd_w=+0.017 | motion=True
+[INFO] [1792911452.245179059] [left_wall_follower]: FOLLOW | left=0.317 m | error=-0.017 m | front=1.173 m | front_left=0.368 m | cmd_v=0.080 | cmd_w=+0.016 | motion=True
+[INFO] [1792911453.247637632] [left_wall_follower]: FOLLOW | left=0.315 m | error=-0.015 m | front=1.075 m | front_left=0.342 m | cmd_v=0.080 | cmd_w=+0.014 | motion=True
+[INFO] [1792911454.251144426] [left_wall_follower]: FOLLOW | left=0.306 m | error=-0.006 m | front=1.042 m | front_left=0.336 m | cmd_v=0.080 | cmd_w=+0.006 | motion=True
+[INFO] [1792911455.254080158] [left_wall_follower]: FOLLOW | left=0.300 m | error=-0.000 m | front=0.987 m | front_left=0.344 m | cmd_v=0.080 | cmd_w=+0.001 | motion=True
+[INFO] [1792911456.256779366] [left_wall_follower]: FOLLOW | left=0.291 m | error=+0.009 m | front=0.974 m | front_left=0.324 m | cmd_v=0.080 | cmd_w=-0.008 | motion=True
+[INFO] [1792911457.459322400] [left_wall_follower]: FOLLOW | left=0.281 m | error=+0.019 m | front=0.932 m | front_left=0.316 m | cmd_v=0.080 | cmd_w=-0.019 | motion=True
+[INFO] [1792911458.657250503] [left_wall_follower]: FOLLOW | left=0.272 m | error=+0.028 m | front=0.835 m | front_left=0.311 m | cmd_v=0.080 | cmd_w=-0.029 | motion=True
+[INFO] [1792911459.665135557] [left_wall_follower]: FOLLOW | left=0.267 m | error=+0.033 m | front=0.742 m | front_left=0.311 m | cmd_v=0.080 | cmd_w=-0.033 | motion=True
+[INFO] [1792911460.860647174] [left_wall_follower]: FOLLOW | left=0.268 m | error=+0.032 m | front=0.654 m | front_left=0.323 m | cmd_v=0.080 | cmd_w=-0.031 | motion=True
+[INFO] [1792911461.862205241] [left_wall_follower]: FOLLOW | left=0.268 m | error=+0.032 m | front=0.572 m | front_left=0.327 m | cmd_v=0.080 | cmd_w=-0.031 | motion=True
+[INFO] [1792911462.863048905] [left_wall_follower]: FOLLOW | left=0.274 m | error=+0.026 m | front=0.501 m | front_left=0.354 m | cmd_v=0.080 | cmd_w=-0.024 | motion=True
+[INFO] [1792911463.865176839] [left_wall_follower]: FOLLOW | left=0.278 m | error=+0.022 m | front=0.445 m | front_left=0.352 m | cmd_v=0.040 | cmd_w=-0.021 | motion=True
+[INFO] [1792911464.871737630] [left_wall_follower]: FOLLOW | left=0.283 m | error=+0.017 m | front=0.407 m | front_left=0.391 m | cmd_v=0.040 | cmd_w=-0.016 | motion=True
+[INFO] [1792911466.068233197] [left_wall_follower]: FOLLOW | left=0.286 m | error=+0.014 m | front=0.356 m | front_left=0.400 m | cmd_v=0.040 | cmd_w=-0.015 | motion=True
+[INFO] [1792911466.270007930] [left_wall_follower]: STATE -> TURN_RIGHT: front or front-left obstacle
+[INFO] [1792911467.084135751] [left_wall_follower]: TURN_RIGHT | left=0.300 m | error=+0.000 m | front=0.353 m | front_left=0.365 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911468.273443722] [left_wall_follower]: TURN_RIGHT | left=0.415 m | error=-0.115 m | front=0.439 m | front_left=0.342 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911469.283296408] [left_wall_follower]: TURN_RIGHT | left=0.358 m | error=-0.058 m | front=0.722 m | front_left=0.361 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911470.281037083] [left_wall_follower]: TURN_RIGHT | left=0.338 m | error=-0.038 m | front=1.545 m | front_left=0.415 m | cmd_v=0.000 | cmd_w=-0.157 | motion=True
+[INFO] [1792911470.683428355] [left_wall_follower]: STATE -> FOLLOW: right turn completed
+[INFO] [1792911471.283491691] [left_wall_follower]: FOLLOW | left=0.333 m | error=-0.033 m | front=1.533 m | front_left=0.469 m | cmd_v=0.080 | cmd_w=+0.033 | motion=True
+[INFO] [1792911472.290714811] [left_wall_follower]: FOLLOW | left=0.342 m | error=-0.042 m | front=1.446 m | front_left=0.453 m | cmd_v=0.080 | cmd_w=+0.042 | motion=True
+[INFO] [1792911473.297449079] [left_wall_follower]: FOLLOW | left=0.351 m | error=-0.051 m | front=1.371 m | front_left=0.445 m | cmd_v=0.080 | cmd_w=+0.053 | motion=True
+[INFO] [1792911474.305508397] [left_wall_follower]: FOLLOW | left=0.353 m | error=-0.053 m | front=1.285 m | front_left=0.442 m | cmd_v=0.080 | cmd_w=+0.053 | motion=True
+[INFO] [1792911475.500475539] [left_wall_follower]: FOLLOW | left=0.353 m | error=-0.053 m | front=1.202 m | front_left=0.399 m | cmd_v=0.080 | cmd_w=+0.055 | motion=True
+[INFO] [1792911476.509997870] [left_wall_follower]: FOLLOW | left=0.347 m | error=-0.047 m | front=1.060 m | front_left=0.376 m | cmd_v=0.080 | cmd_w=+0.048 | motion=True
+[INFO] [1792911477.704090667] [left_wall_follower]: FOLLOW | left=0.340 m | error=-0.040 m | front=0.872 m | front_left=0.355 m | cmd_v=0.080 | cmd_w=+0.043 | motion=True
+[INFO] [1792911478.706171086] [left_wall_follower]: FOLLOW | left=0.323 m | error=-0.023 m | front=0.793 m | front_left=0.341 m | cmd_v=0.080 | cmd_w=+0.024 | motion=True
+[INFO] [1792911479.711014218] [left_wall_follower]: FOLLOW | left=0.305 m | error=-0.005 m | front=0.693 m | front_left=0.305 m | cmd_v=0.080 | cmd_w=+0.005 | motion=True
+[INFO] [1792911480.712373119] [left_wall_follower]: FOLLOW | left=0.281 m | error=+0.019 m | front=0.672 m | front_left=0.275 m | cmd_v=0.080 | cmd_w=-0.022 | motion=True
+[INFO] [1792911481.718867910] [left_wall_follower]: FOLLOW | left=0.268 m | error=+0.032 m | front=0.654 m | front_left=0.280 m | cmd_v=0.080 | cmd_w=-0.032 | motion=True
+[INFO] [1792911482.517194966] [left_wall_follower]: STATE -> AVOID_LEFT: too close to left wall
+[INFO] [1792911482.716505865] [left_wall_follower]: STATE -> FOLLOW: left clearance restored
+[INFO] [1792911482.922056940] [left_wall_follower]: STATE -> AVOID_LEFT: too close to left wall
+[INFO] [1792911483.120525480] [left_wall_follower]: AVOID_LEFT | left=0.244 m | error=+0.056 m | front=0.628 m | front_left=0.255 m | cmd_v=0.030 | cmd_w=-0.250 | motion=True
+[INFO] [1792911484.125147067] [left_wall_follower]: AVOID_LEFT | left=0.232 m | error=+0.068 m | front=0.585 m | front_left=0.307 m | cmd_v=0.030 | cmd_w=-0.250 | motion=True
+[INFO] [1792911485.160484054] [left_wall_follower]: AVOID_LEFT | left=0.239 m | error=+0.061 m | front=0.577 m | front_left=0.395 m | cmd_v=0.030 | cmd_w=-0.250 | motion=True
+[INFO] [1792911485.541820604] [left_wall_follower]: STATE -> FOLLOW: left clearance restored
+[INFO] [1792911486.352812757] [left_wall_follower]: FOLLOW | left=0.285 m | error=+0.015 m | front=0.503 m | front_left=0.507 m | cmd_v=0.080 | cmd_w=-0.010 | motion=True
+[INFO] [1792911487.548067982] [left_wall_follower]: FOLLOW | left=0.321 m | error=-0.021 m | front=0.450 m | front_left=0.438 m | cmd_v=0.040 | cmd_w=+0.027 | motion=True
+[INFO] [1792911488.556696469] [left_wall_follower]: FOLLOW | left=0.341 m | error=-0.041 m | front=0.404 m | front_left=0.409 m | cmd_v=0.040 | cmd_w=+0.046 | motion=True
+[INFO] [1792911489.755139246] [left_wall_follower]: FOLLOW | left=0.352 m | error=-0.052 m | front=0.358 m | front_left=0.362 m | cmd_v=0.040 | cmd_w=+0.056 | motion=True
+[INFO] [1792911489.955410355] [left_wall_follower]: STATE -> TURN_RIGHT: front or front-left obstacle
+[INFO] [1792911490.758316262] [left_wall_follower]: TURN_RIGHT | left=0.389 m | error=-0.089 m | front=0.362 m | front_left=0.335 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911491.759993213] [left_wall_follower]: TURN_RIGHT | left=0.414 m | error=-0.114 m | front=0.484 m | front_left=0.328 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911492.958215580] [left_wall_follower]: TURN_RIGHT | left=0.327 m | error=-0.027 m | front=1.125 m | front_left=0.375 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911494.161916862] [left_wall_follower]: TURN_RIGHT | left=0.331 m | error=-0.031 m | front=1.523 m | front_left=0.515 m | cmd_v=0.000 | cmd_w=-0.120 | motion=True
+[INFO] [1792911494.360102635] [left_wall_follower]: STATE -> FOLLOW: right turn completed
+[INFO] [1792911495.162545256] [left_wall_follower]: FOLLOW | left=0.351 m | error=-0.051 m | front=1.487 m | front_left=0.555 m | cmd_v=0.080 | cmd_w=+0.057 | motion=True
+[INFO] [1792911496.164037423] [left_wall_follower]: FOLLOW | left=0.369 m | error=-0.069 m | front=1.401 m | front_left=0.556 m | cmd_v=0.080 | cmd_w=+0.074 | motion=True
+[INFO] [1792911497.371388965] [left_wall_follower]: FOLLOW | left=0.386 m | error=-0.086 m | front=1.294 m | front_left=0.536 m | cmd_v=0.080 | cmd_w=+0.092 | motion=True
+[INFO] [1792911498.373095906] [left_wall_follower]: FOLLOW | left=0.393 m | error=-0.093 m | front=1.216 m | front_left=0.509 m | cmd_v=0.080 | cmd_w=+0.096 | motion=True
+[INFO] [1792911499.574360047] [left_wall_follower]: FOLLOW | left=0.393 m | error=-0.093 m | front=1.120 m | front_left=0.473 m | cmd_v=0.080 | cmd_w=+0.096 | motion=True
+[INFO] [1792911500.776344632] [left_wall_follower]: FOLLOW | left=0.397 m | error=-0.097 m | front=1.024 m | front_left=0.434 m | cmd_v=0.080 | cmd_w=+0.100 | motion=True
+[INFO] [1792911501.777561986] [left_wall_follower]: FOLLOW | left=0.388 m | error=-0.088 m | front=0.844 m | front_left=0.402 m | cmd_v=0.080 | cmd_w=+0.091 | motion=True
+[INFO] [1792911502.780308785] [left_wall_follower]: FOLLOW | left=0.368 m | error=-0.068 m | front=0.684 m | front_left=0.376 m | cmd_v=0.080 | cmd_w=+0.065 | motion=True
+[INFO] [1792911503.977542396] [left_wall_follower]: FOLLOW | left=0.356 m | error=-0.056 m | front=0.551 m | front_left=0.317 m | cmd_v=0.080 | cmd_w=+0.057 | motion=True
+[INFO] [1792911504.980464228] [left_wall_follower]: FOLLOW | left=0.315 m | error=-0.015 m | front=0.481 m | front_left=0.278 m | cmd_v=0.080 | cmd_w=+0.010 | motion=True
+[INFO] [1792911505.987452280] [left_wall_follower]: FOLLOW | left=0.299 m | error=+0.001 m | front=0.439 m | front_left=0.262 m | cmd_v=0.040 | cmd_w=-0.001 | motion=True
+[INFO] [1792911506.987858657] [left_wall_follower]: FOLLOW | left=0.273 m | error=+0.027 m | front=0.402 m | front_left=0.232 m | cmd_v=0.040 | cmd_w=-0.029 | motion=True
+[INFO] [1792911507.789506652] [left_wall_follower]: STATE -> TURN_RIGHT: front or front-left obstacle
+[INFO] [1792911507.988571982] [left_wall_follower]: TURN_RIGHT | left=0.254 m | error=+0.046 m | front=0.394 m | front_left=0.233 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911508.992218102] [left_wall_follower]: TURN_RIGHT | left=0.221 m | error=+0.079 m | front=0.594 m | front_left=0.253 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911509.998122546] [left_wall_follower]: TURN_RIGHT | left=0.225 m | error=+0.075 m | front=0.614 m | front_left=0.363 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911511.195744579] [left_wall_follower]: TURN_RIGHT | left=0.297 m | error=+0.003 m | front=0.751 m | front_left=0.579 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True
+[INFO] [1792911512.196682479] [left_wall_follower]: STATE -> FOLLOW: right turn completed
+[INFO] [1792911512.402300256] [left_wall_follower]: FOLLOW | left=0.432 m | error=-0.132 m | front=0.956 m | front_left=0.591 m | cmd_v=0.080 | cmd_w=+0.132 | motion=True
+[INFO] [1792911512.596948032] [left_wall_follower]: STATE -> RECOVER_LEFT: left wall out of range
+[INFO] [1792911512.997072275] [left_wall_follower]: STATE -> FOLLOW: left wall reacquired
+[INFO] [1792911513.602020665] [left_wall_follower]: FOLLOW | left=0.448 m | error=-0.148 m | front=0.771 m | front_left=0.545 m | cmd_v=0.080 | cmd_w=+0.154 | motion=True
+[INFO] [1792911514.000768156] [left_wall_follower]: STATE -> RECOVER_LEFT: left wall out of range
+[INFO] [1792911514.398598286] [left_wall_follower]: STATE -> FOLLOW: left wall reacquired
+[INFO] [1792911514.804400276] [left_wall_follower]: FOLLOW | left=0.441 m | error=-0.141 m | front=0.609 m | front_left=0.501 m | cmd_v=0.080 | cmd_w=+0.144 | motion=True
+[INFO] [1792911515.406221472] [left_wall_follower]: STATE -> RECOVER_LEFT: left wall out of range
+[INFO] [1792911515.806384707] [left_wall_follower]: STATE -> FOLLOW: left wall reacquired
+[INFO] [1792911515.807363635] [left_wall_follower]: FOLLOW | left=0.437 m | error=-0.137 m | front=0.537 m | front_left=0.467 m | cmd_v=0.080 | cmd_w=+0.137 | motion=True
+[INFO] [1792911516.606072400] [left_wall_follower]: STATE -> RECOVER_LEFT: left wall out of range
