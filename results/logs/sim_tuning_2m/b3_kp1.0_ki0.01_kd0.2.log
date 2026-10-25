@@ -1,0 +1,15 @@
+[INFO] [1792947331.165342156] [left_wall_follower]: LEFT WALL FOLLOWER | target=0.30 m | enable_motion=True
+[INFO] [1792947333.183826695] [left_wall_follower]: FOLLOW | left=0.297 m | error=+0.003 m | front=0.802 m | front_left=0.320 m | cmd_v=0.080 | cmd_w=-0.003 | motion=True
+[INFO] [1792947334.201341866] [left_wall_follower]: FOLLOW | left=0.279 m | error=+0.021 m | front=0.728 m | front_left=0.309 m | cmd_v=0.080 | cmd_w=-0.023 | motion=True
+[INFO] [1792947335.218286172] [left_wall_follower]: FOLLOW | left=0.264 m | error=+0.036 m | front=0.644 m | front_left=0.299 m | cmd_v=0.080 | cmd_w=-0.040 | motion=True
+[INFO] [1792947336.238808434] [left_wall_follower]: FOLLOW | left=0.261 m | error=+0.039 m | front=0.561 m | front_left=0.308 m | cmd_v=0.080 | cmd_w=-0.042 | motion=True
+[INFO] [1792947336.852551664] [left_wall_follower]: STATE -> AVOID_LEFT: too close to left wall
+[INFO] [1792947337.063218026] [left_wall_follower]: STATE -> FOLLOW: left clearance restored
+[INFO] [1792947337.272010256] [left_wall_follower]: FOLLOW | left=0.250 m | error=+0.050 m | front=0.499 m | front_left=0.299 m | cmd_v=0.080 | cmd_w=-0.054 | motion=True
+[INFO] [1792947337.682722550] [left_wall_follower]: STATE -> AVOID_LEFT: too close to left wall
+[INFO] [1792947337.884608781] [left_wall_follower]: STATE -> FOLLOW: left clearance restored
+[INFO] [1792947338.294628827] [left_wall_follower]: FOLLOW | left=0.252 m | error=+0.048 m | front=0.444 m | front_left=0.300 m | cmd_v=0.040 | cmd_w=-0.051 | motion=True
+[INFO] [1792947339.320419612] [left_wall_follower]: FOLLOW | left=0.253 m | error=+0.047 m | front=0.406 m | front_left=0.309 m | cmd_v=0.040 | cmd_w=-0.048 | motion=True
+[INFO] [1792947340.333368312] [left_wall_follower]: FOLLOW | left=0.257 m | error=+0.043 m | front=0.365 m | front_left=0.334 m | cmd_v=0.040 | cmd_w=-0.043 | motion=True
+[INFO] [1792947341.156373879] [left_wall_follower]: STATE -> TURN_RIGHT: front or front-left obstacle
+[INFO] [1792947341.370034485] [left_wall_follower]: TURN_RIGHT | left=0.257 m | error=+0.043 m | front=0.347 m | front_left=0.338 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True

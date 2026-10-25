@@ -1,0 +1,1 @@
+[INFO] [1792947345.836219398] [dual_pid_wall_follower]: DUAL PID WALL FOLLOWER | target=0.30 m | v_max=0.080 v_min=0.030 | ang Kp=1.20 Ki=0.00 Kd=0.00 | lin Kp=0.16 Ki=0.00 Kd=0.00 | enable_motion=True

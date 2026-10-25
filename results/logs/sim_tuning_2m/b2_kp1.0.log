@@ -1,0 +1,6 @@
+[INFO] [1792947325.278471757] [left_wall_follower]: LEFT WALL FOLLOWER | target=0.30 m | enable_motion=True
+[INFO] [1792947325.417284574] [left_wall_follower]: FOLLOW | left=0.336 m | error=-0.036 m | front=1.182 m | front_left=0.372 m | cmd_v=0.080 | cmd_w=+0.036 | motion=True
+[INFO] [1792947326.424506852] [left_wall_follower]: FOLLOW | left=0.327 m | error=-0.027 m | front=1.114 m | front_left=0.371 m | cmd_v=0.080 | cmd_w=+0.027 | motion=True
+[INFO] [1792947327.446864122] [left_wall_follower]: FOLLOW | left=0.316 m | error=-0.016 m | front=1.026 m | front_left=0.350 m | cmd_v=0.080 | cmd_w=+0.016 | motion=True
+[INFO] [1792947328.467336669] [left_wall_follower]: FOLLOW | left=0.306 m | error=-0.006 m | front=0.945 m | front_left=0.344 m | cmd_v=0.080 | cmd_w=+0.006 | motion=True
+[INFO] [1792947329.489387342] [left_wall_follower]: FOLLOW | left=0.298 m | error=+0.002 m | front=0.879 m | front_left=0.319 m | cmd_v=0.080 | cmd_w=-0.002 | motion=True

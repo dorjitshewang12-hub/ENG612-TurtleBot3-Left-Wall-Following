@@ -1,0 +1,3 @@
+[INFO] [1792947342.980048050] [left_wall_follower]: LEFT WALL FOLLOWER | target=0.30 m | enable_motion=True
+[INFO] [1792947343.016666073] [left_wall_follower]: STATE -> TURN_RIGHT: front or front-left obstacle
+[INFO] [1792947343.225558445] [left_wall_follower]: TURN_RIGHT | left=0.271 m | error=+0.029 m | front=0.357 m | front_left=0.354 m | cmd_v=0.000 | cmd_w=-0.400 | motion=True

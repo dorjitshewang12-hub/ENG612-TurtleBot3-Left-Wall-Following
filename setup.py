@@ -28,6 +28,7 @@ setup(
         # Building Editor model of the arena walls
         (os.path.join('share', package_name, 'models', 'lab_arena_walls'),
             glob('models/lab_arena_walls/*')),
+        (os.path.join('share', package_name, 'models', 'lab_arena_2m'), glob('models/lab_arena_2m/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
