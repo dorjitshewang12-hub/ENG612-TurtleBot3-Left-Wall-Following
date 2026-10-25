@@ -2,16 +2,27 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>eng612_wall_following</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="user@todo.todo">user</maintainer>
-  <license>TODO: License declaration</license>
+  <version>1.0.0</version>
+  <description>
+    ENG612 Project 2: PID-based left-wall following for the TurtleBot3 Burger
+    at 0.30 m, with a baseline (single angular PID) and an extended (dual PID:
+    angular and linear) controller, plus a Gazebo world of the lab arena.
+  </description>
+  <maintainer email="dorjitshewang12@gmail.com">Dorji Tshewang</maintainer>
+  <maintainer email="chophelu68@gmail.com">Ugyen Chophel</maintainer>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>nav_msgs</depend>
+  <depend>std_msgs</depend>
   <depend>rcl_interfaces</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>turtlebot3_gazebo</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
